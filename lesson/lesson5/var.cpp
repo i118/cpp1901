@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+void doPrint(){
+    int a = 4;
+    cout << "doPrint(): "<< a << endl;
+}
+int returnA(int a){
+    cout << "returnA(): "<< a << endl;
+    return a;
+}
+int main(void){
+    doPrint();
+    int a = 0;
+    cout << "main(): "<< a << endl;
+    returnA(7);
+    cout << "main(): "<< a << endl;
+    doPrint();
+    return 0;
+}
