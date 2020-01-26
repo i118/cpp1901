@@ -9,7 +9,7 @@
 
 > - ***Чар спера-змей а ты нет***
 
-***This is C++ ***
+***This is C++***
 
 <img src="https://cdn.tproger.ru/wp-content/uploads/2019/06/cpp-hidden-features-mini-880x308.jpg" width="200" height="200" />
 
@@ -21,22 +21,38 @@
 > - lesson 3 - 03.03.03
 > - lesson 4 - 04.04.04
 > - lesson 5 - 05.05.05
-> - lesson 5 - 06.06.06
-> - lesson 5 - 07.07.07
-> - lesson 5 - 08.08.08
-> - lesson 5 - 09.09.09
-> - lesson 5 - 10.10.10
-> - lesson 5 - 11.11.11
-> - lesson 5 - 12.12.12
-> - lesson 5 - 13.13.13
-> - lesson 5 - 14.14.14
-> - lesson 5 - 15.15.15
-> - lesson 5 - 16.16.16
+> - lesson 6 - 06.06.06
+> - lesson 7 - 07.07.07
+> - lesson 8 - 08.08.08
+> - lesson 9 - 09.09.09
+> - lesson 10 - 10.10.10
+> - lesson 11 - 11.11.11
+> - lesson 12 - 12.12.12
+> - lesson 13 - 13.13.13
+> - lesson 14 - 14.14.14
+> - lesson 15 - 15.15.15
 
 ### Вставка кода
 
 - Запуск C++ код: примеры кода с описание
-> main[char]
+```
+#include <iostream>
+#include "func.hpp"
+using namespace std;
+void print(); // прототип
+char getSymbol(); // прототип
+int main() {
+    char a = 'x';
+    char arr[] = {'h','e','l','l'};
+    int arrInt[] = {1,2,3,4};
+
+    print();
+    a = getSymbol();                //v1
+    cout << getSymbol() << endl;    //v2
+
+    return 0;
+}
+```
 
 ### Git comand
 
